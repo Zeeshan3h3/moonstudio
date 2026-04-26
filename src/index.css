@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark text-cream font-ui antialiased overflow-x-hidden;
+    cursor: none;
+  }
+  
+  /* Modern Thin Gold Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-card;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gold/50 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gold;
+  }
+
+  /* Custom Cursor hidden on touch devices */
+  @media (hover: none) and (pointer: coarse) {
+    body, * {
+      cursor: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-shadow-gold {
+    text-shadow: 0 0 20px rgba(201,168,76,0.3);
+  }
+}

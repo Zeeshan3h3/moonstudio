@@ -1,0 +1,18 @@
+export const gallery = [
+    { id: 1, src: '/assets/img29.jpg', category: 'lawns', venue: 'Event Lawns' },
+    { id: 2, src: '/assets/img32.jpg', category: 'halls', venue: 'Banquet Halls' },
+    { id: 3, src: '/assets/img36.jpg', category: 'hills', venue: 'Scenic Hills' },
+    { id: 4, src: '/assets/img41.jpg', category: 'gardens', venue: 'Decorated Gardens' },
+    { id: 5, src: '/assets/img49.jpg', category: 'mandap', venue: 'Wedding Mandap' },
+    { id: 6, src: '/assets/img30.jpg', category: 'lawns', venue: 'Event Lawns' },
+    { id: 7, src: '/assets/img33.jpg', category: 'halls', venue: 'Banquet Halls' },
+    { id: 8, src: '/assets/img37.jpg', category: 'hills', venue: 'Scenic Hills' },
+    { id: 9, src: '/assets/img42.jpg', category: 'gardens', venue: 'Decorated Gardens' },
+    { id: 10, src: '/assets/img50.jpg', category: 'mandap', venue: 'Wedding Mandap' },
+    { id: 11, src: '/assets/img31.jpg', category: 'lawns', venue: 'Event Lawns' },
+    { id: 12, src: '/assets/img34.jpg', category: 'halls', venue: 'Banquet Halls' },
+    { id: 13, src: '/assets/img40.jpg', category: 'hills', venue: 'Scenic Hills' },
+    { id: 14, src: '/assets/img43.jpg', category: 'gardens', venue: 'Decorated Gardens' },
+    { id: 15, src: '/assets/img51.jpg', category: 'mandap', venue: 'Wedding Mandap' },
+    { id: 16, src: '/assets/img35.jpg', category: 'halls', venue: 'Banquet Halls' },
+];
